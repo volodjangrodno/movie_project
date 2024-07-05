@@ -1,0 +1,44 @@
+{% extends "films/shablon.html" %}
+<! doctype html>
+<html Lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {% block title %}
+        Главная
+    {% endblock %}
+</head>
+<body>
+    {% block content %}
+
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h1 class="mb-0">Популярные фильмы</h1>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <a href="/add_film/" class="btn btn-primary me-md-2">Добавить фильм</a>
+            </div>
+        </div>
+    {% if add_film %}
+        {% for film in film %}
+            <div class="card">
+				<div class="card">
+					<div class="card-body">
+                        <img src="{{film.image}}" class="card-img-top" alt="...">
+                        <h3>Название фильма: {{film.title}}</h3>
+                        <p>Описание фильма: {{film.description}}</p>
+                        <p>Комментарий к фильму: {{film.comment}}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <h3>Нет добавленных фильмов</h3>
+    {% endif %}
+
+    </div>
+    {% endblock %}
+</body>
+</html>

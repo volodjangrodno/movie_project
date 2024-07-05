@@ -1,20 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bd4dfd2e-e559-495d-830c-3b282aa31721" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/ZeroCoder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/ZeroCoder/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/ZeroCoder/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/ZeroCoder/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/ZeroCoder/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/css/films.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер Всё закончится.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер Дары смерти. Часть 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер Дары смерти. Часть 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер Кубок огня.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер Принц-полукровка.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер Тайная комната.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер и Орден Феникса.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер и узник Азкабана.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер и философский камень.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гарри Поттер8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гермиона.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гермиона2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гермиона3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гермиона4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гермиона5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гермиона6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гермиона7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Гермиона8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Персонажи.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Персонажи01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Персонажи1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Персонажи10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Персонажи2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Персонажи3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Персонажи4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Персонажи5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Персонажи6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Персонажи7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Персонажи8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Персонажи9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Рон.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Рон2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Рон3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Рон4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Рон5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Рон6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Рон7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/static/films/img/Рон8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/templates/films/add_comment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/templates/films/add_film.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/templates/films/comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/templates/films/films.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/templates/films/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/templates/films/persons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/templates/films/shablon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/films/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ZeroCoder/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/movie_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/movie_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2ijuUUAjMqLV15MOvju8VopK2Wb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -23,11 +107,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "F:/Python/PythonAndChatGPT/PythonProjects/MyProjectsOnGitHub/movie_project"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Python\PythonAndChatGPT\PythonProjects\MyProjectsOnGitHub\movie_project\ZeroCoder\films" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="movie_project" />

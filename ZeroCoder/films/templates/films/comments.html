@@ -1,0 +1,43 @@
+{% extends "films/shablon.html" %}
+<! doctype html>
+<html Lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {% block title %}
+
+    {% endblock %}
+</head>
+<body>
+    {% block content %}
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h1 class="mb-0">Комментарии к фильмам</h1>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-primary me-md-2" type="button">Кнопка</button>
+                <button class="btn btn-primary" type="button">Кнопка</button>
+            </div>
+        </div>
+    {% if film_comment %}
+        {% for comment in film_comment %}
+            <div class="card">
+				<div class="card">
+					<div class="card-body">
+                        <h3>Название фильма: {{comment.title}}</h3>
+                        <p>Описание фильма: {{comment.description}}</p>
+                        <p>Комментарий к фильму: {{comment.comment}}</p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <h3>Нет комментариев</h3>
+    {% endif %}
+
+    </div>
+    {% endblock %}
+</body>
+</html>

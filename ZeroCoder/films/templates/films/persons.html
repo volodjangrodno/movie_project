@@ -1,0 +1,107 @@
+{% extends "films/shablon.html" %}
+{% load static %}
+{% block title %}
+    Герои фильмов
+{% endblock %}
+
+{% block content %}
+
+
+  <div class="container" style="margin-top: 20px;">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="{% static 'films/img/Гарри Поттер.jpg' %}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Гарри Поттер</h5>
+            <p class="card-text"> Литературный персонаж, главный герой серии романов английской писательницы Джоан Роулинг.
+               На одиннадцатый день рождения Гарри узнаёт, что является волшебником, и ему уготовано
+               место в школе волшебства «Хогвартс», в которой он будет практиковать магию под руководством
+               директора Альбуса Дамблдора и других школьных профессоров.
+            </p>
+            <a href="#" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="{% static 'films/img/Рон.jpg' %}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Рон Уизли</h5>
+            <p class="card-text"> Персонаж серии романов о Гарри Поттере.
+              Лучший друг Гарри Поттера и Гермионы Грейнджер, один из главных героев романа. Член семейства Уизли.
+              Учился в школе Хогвартс на факультете Гриффиндор.
+              Впервые упоминается в книге «Гарри Поттер и философский камень».
+            </p>
+            <a href="#" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4">
+        <div class="card" style="width: 18rem;">
+          <img src="{% static 'films/img/Гермиона.jpg' %}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Гермиона Грейнджер</h5>
+            <p class="card-text"> Одна из главных героинь цикла романов о Гарри Поттере
+              наряду с её однокурсниками Гарри Поттером и Роном Уизли.
+              Ученица школы Хогвартс, талантливая молодая волшебница, вундеркинд.
+            </p>
+            <a href="#" class="btn btn-primary">Подробнее</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Гарри Поттер
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Гарри Поттер</strong> — литературный персонаж, главный герой серии романов английской писательницы Джоан Роулинг.
+              На одиннадцатый день рождения Гарри узнаёт, что является волшебником, и ему уготовано место в школе волшебства «Хогвартс»,
+              в которой он будет практиковать магию под руководством директора Альбуса Дамблдора и других школьных профессоров.
+              Также оказывается, что он уже является знаменитостью во всём магическом сообществе романа, и что его судьба связана с судьбой Волан-де-Морта,
+              опасного тёмного мага, убившего среди прочих и его родителей — Лили и Джеймса Поттеров.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Рон Уизли
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Рональд Билиус Уизли</strong>  — персонаж серии романов о Гарри Поттере.
+              Лучший друг Гарри Поттера и Гермионы Грейнджер, один из главных героев романа. Член семейства Уизли.
+              Учился в школе Хогвартс на факультете Гриффиндор.
+              Впервые упоминается в книге «Гарри Поттер и философский камень»
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Гермиона Грейнджер
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>Гермио́на Джин Гре́йнджер</strong>  — одна из главных героинь цикла романов о Гарри Поттере
+              наряду с её однокурсниками Гарри Поттером и Роном Уизли.
+              Ученица школы Хогвартс, талантливая молодая волшебница, вундеркинд
+          </div>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}

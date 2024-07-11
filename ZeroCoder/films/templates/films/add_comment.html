@@ -6,28 +6,28 @@
 
 {% block content %}
 <div class="container mt-5">
-        <div class="card" style="width: 70rem;">
-            <div class="card-header">
-                Добавить комментарий
-            </div>
-            <div class="card-body">
-                <form method="post">
-                    {% csrf_token %}
-                    <div class="form-group">
-                        {{ form.title }}
-                    </div>
-                    <div class="form-group">
-                        {{ form.description }}
-                    </div>
-                    <div class="form-group">
-                        {{ form.comment }}
-                    </div>
-                    <button type="submit" class="btn btn-primary">Добавить комментарий</button>
-                </form>
+    <div class="card">
+        <div class="card-header">
+            Добавить комментарий
+        </div>
+        <div class="card-body style=width: 70rem;">
+            <form method="post">
+                {% csrf_token %}
+                <div class="form-group style=width: 70rem;">
+                    {{ form.title }}
+                </div>
+                <div class="form-group style=width: 70rem;">
+                    {{ form.description }}
+                </div>
+                <div class="form-group style=width: 70rem;">
+                    {{ form.comment }}
+                </div>
+                <button type="submit" class="btn btn-primary">Добавить комментарий</button>
+            </form>
                 <p>{{ error }}</p>
-            </div>
         </div>
     </div>
+</div>
 
 
 {% endblock %}
